@@ -44,7 +44,7 @@ module "base_AIpolcies"{
  source              = "./AI/"
  main_compartment_id = var.parent_compartment
  retail_ai_service_policies = var.retail_ai_service_policies
-  count8 = length(var.retail_ai_service_policies) > 0 ? 1 : 0   
+  count = length(var.retail_ai_service_policies) > 0 ? 1 : 0   
    }
     
 module "base_Funpolcies"{
