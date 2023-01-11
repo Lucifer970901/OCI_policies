@@ -27,7 +27,7 @@ module "base_DCpolcies"{
    }
  
 module "base_DIpolcies"{
- source              = "./retaildataIntegration"
+ source              = "./retailDataIntegration"
  main_compartment_id = var.parent_compartment
  retail_data_integration_service_policies = var.retail_data_integration_service_policies
  count = length(var.retail_data_integration_service_policies) > 0 ? 1 : 0   
