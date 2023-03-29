@@ -5,7 +5,7 @@ datascience_policies = {
 "Allow group AnalyticsBD_Group to manage data-science-models in compartment Retail",
 "Allow group AnalyticsBD_Group to manage data-science-model-deployments in compartment Retail",
 "Allow group AnalyticsBD_Group to manage buckets IN compartment Retail",
-"allow group AnalyticsBD_Group to use ai-service-language-family in compartment Retail",
+"Allow group AnalyticsBD_Group to use ai-service-language-family in compartment Retail",
 "Allow group AnalyticsBD_Group to manage autonomous-database-family in compartment Retail",
 "Allow group AnalyticsBD_Group to manage functions-family in compartment Retail",
 "Allow group AnalyticsBD_Group to manage api-gateway-family in compartment Retail",
